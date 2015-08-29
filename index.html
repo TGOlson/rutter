@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Rutter Scratch</title>
-    <script type="text/javascript" src="/qs.js"></script>
-    <script type="text/javascript" src="/rutter.js"></script>
+    <script type="text/javascript" src="/when.js"></script>
+    <script type="text/javascript">
+      when.setQueryInterval(5);
+      when.setMaxQueries(10);
+    </script>
   </head>
   <body>
     <h1>Rutter</h1>
-    <a href="javascript:void(0)" onclick="transitionTo('foo')">Foo</a>
-    <a href="javascript:void(0)" onclick="transitionTo('bar')">Bar</a>
-    <a href="javascript:void(0)" onclick="transitionTo('foo.bar', {what: 'bar'})">FooBar</a>
+    <a href="javascript:void(0)" onclick="rutter.transitionTo('foo')">Foo</a>
+    <a href="javascript:void(0)" onclick="rutter.transitionTo('bar')">Bar</a>
+    <a href="javascript:void(0)" onclick="rutter.transitionTo('foo.bar', {what: 'bar'})">FooBar</a>
+
+    <script type="text/javascript" src="/expose.js"></script>
+    <script type="text/javascript" src="/rutter.js"></script>
+    <script type="text/javascript" src="/qs.js"></script>
   </body>
 </html>
