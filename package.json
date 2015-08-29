@@ -1,0 +1,19 @@
+{
+  "name": "rutter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rutter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TGOlson/rutter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TGOlson/rutter/issues"
+  },
+  "homepage": "https://github.com/TGOlson/rutter#readme"
+}
